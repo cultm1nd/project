@@ -1,0 +1,48 @@
+body{
+  background-color: #d0ebf3;
+}
+div{
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 30px;
+  text-align: center;
+}
+#game-skelet
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row
+{
+  display: flex;
+}
+.box {
+  border: solid 3px rgb(255, 255, 255) ;
+  border-radius: 10px;
+  margin: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.selection
+{
+  border: 3px solid rgb(156, 154, 187);
+}
+p
+{
+margin-top: 40px;
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 30px;
+text-align: center;
+
+}
